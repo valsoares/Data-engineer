@@ -27,12 +27,22 @@ As etapas do projeto incluem extração, transformação e carga (ETL), com foco
 `Remoção de Duplicatas`: Identificação e remoção de registros duplicados para assegurar a integridade dos dados. \
 `Persistência em CSV`: Exportação do DataFrame final para um arquivo CSV, aplicando práticas de versionamento e backup para garantir a segurança dos dados.
   
-#### Análise de Dados (Próximos Passos)
+#### Análise de Dados
 Com os dados devidamente processados e persistidos, as próximas etapas incluem análises exploratórias e avançadas, tais como:
 
-`Análise Temporal`: Investigação das tendências de variação das tarifas ao longo do período de estudo. \
-`Análise de Distribuição Geográfica`: Avaliação das tarifas por localização, analisando cidades e UFs. \
-`Análise de Diferentes Empresas`: Avaliação das tarifas por diferentes empresas para as mesmas localizações.
+`Análise Temporal`: Investigação das tendências de variação das tarifas ao longo do período de estudo. 
+> Setembro, Outubro e Novembro de 2023 foram os meses com a maior média dos valores de tarifas.
+<img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/1.png" alt="graph" width="900">
+
+`Análise de Distribuição Geográfica`: Avaliação das tarifas por localização. 
+> Segue os 10 destinos mais procurados. Os estados de São Paulo, Rio de Janeiro e Paraná são os três destinos mais procurados para viagens de avião.
+<img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/4.png" alt="graph" width="400">
+
+> É possível verificar as tarifas mais baratas e mais caras com base nos destinos e origens.
+<img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/3.png" alt="graph" width="800">
+
+`Análise de Diferentes Empresas`: Comparação das tarifas e quantidade de passagens por diferentes empresas.
+<img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/2.png" alt="graph">
 
 ### :wrench: Ferramentas e Técnicas Utilizadas
 
@@ -41,6 +51,7 @@ Com os dados devidamente processados e persistidos, as próximas etapas incluem 
 - `Regex` para manipulação avançada de strings.
 - `SQL-like` operations dentro do Pandas para joins e merges eficientes.
 - Versionamento de Arquivos usando `Git` para controle de versões e histórico de alterações.
+- `Power BI` para criação de gráficos para análises.
 
 ### :trophy: Conclusão
 Este projeto exemplifica um ciclo completo de engenharia de dados, desde a extração de dados brutos até a transformação e persistência de um dataset limpo e
