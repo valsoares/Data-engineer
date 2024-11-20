@@ -26,7 +26,9 @@ As etapas do projeto incluem extração, transformação e carga (ETL), com foco
 
 `Remoção de Duplicatas`: Identificação e remoção de registros duplicados para assegurar a integridade dos dados. \
 `Persistência em CSV`: Exportação do DataFrame final para um arquivo CSV, aplicando práticas de versionamento e backup para garantir a segurança dos dados.
-  
+
+<img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/etl.png" alt="graph">
+
 #### Análise de Dados
 Com os dados devidamente processados e persistidos, as próximas etapas incluem análises exploratórias e avançadas, tais como:
 
