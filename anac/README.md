@@ -31,11 +31,11 @@ As etapas do projeto incluem extração, transformação e carga (ETL), com foco
 Com os dados devidamente processados e persistidos, as próximas etapas incluem análises exploratórias e avançadas, tais como:
 
 `Análise Temporal`: Investigação das tendências de variação das tarifas ao longo do período de estudo. 
-> Setembro, Outubro e Novembro de 2023 foram os meses com a maior média dos valores de tarifas.
+> Setembro e Outubro de 2023 foram os meses com a maior média dos valores de tarifas.
 <img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/1.png" alt="graph" width="900">
 
 `Análise de Distribuição Geográfica`: Avaliação das tarifas por localização. 
-> Segue os 10 destinos mais procurados. Os estados de São Paulo, Rio de Janeiro e Paraná são os três destinos mais procurados para viagens de avião.
+> Segue os 10 destinos mais procurados. Os estados de São Paulo, Rio de Janeiro e Minas Gerais são os três destinos mais procurados para viagens de avião.
 <img src="https://github.com/valsoares/Data-engineer/blob/main/anac/imagens/4.png" alt="graph" width="400">
 
 > É possível verificar as tarifas mais baratas e mais caras com base nos destinos e origens.
