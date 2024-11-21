@@ -13,6 +13,7 @@
 - Os códigos foram realizados em linguagem `Python`
 - `Pandas` foi utilizado para a manipulação dos dados
 - Para a melhor visualização do pipeline foi utilizado o `Jupyter Notebook`
+- `Power BI` foi utilizado para visualização dos dados
 
 `Projeto clima`
 - Os códigos foram realizados em linguagem `Python`
